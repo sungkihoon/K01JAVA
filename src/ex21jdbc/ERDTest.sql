@@ -11,7 +11,7 @@ DROP TABLE member CASCADE CONSTRAINTS;
 
 CREATE TABLE board
 (
-	idx  number NOT NULL,
+	idx number NOT NULL,
 	title varchar2(200),
 	contents varchar2(2000),
 	postdate date DEFAULT sysdate,
