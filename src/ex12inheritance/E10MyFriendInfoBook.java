@@ -168,7 +168,7 @@ class FriendInfoHandler{
 		/*
 		 1. 친구정보를 입력받은 후..
 		 2. 객체배열 0번방에 객체를 저장하고..
-		 3. nunmOfFriends 변수를 1증가시킨다.(후위증가)
+		 3. numOfFriends 변수를 1증가시킨다.(후위증가)
 		 */
 		if(choice ==1) {
 			//고딩친구 입력
