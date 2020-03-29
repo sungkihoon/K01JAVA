@@ -1,7 +1,6 @@
 package ex17collection;
 
 import java.util.*;
-
 import common.Teacher;
 
 /*
