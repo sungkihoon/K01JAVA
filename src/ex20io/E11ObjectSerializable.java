@@ -68,5 +68,4 @@ public class E11ObjectSerializable {
 			System.out.println("뭔가없음");
 		}
 	}
-
 }
