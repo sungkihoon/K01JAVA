@@ -1,5 +1,6 @@
 package ex21jdbc.connect;
 
+import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -11,6 +12,8 @@ public class IConnectImpl implements IConnect {
    
    //동적쿼리 처리를 위한 객체
    public PreparedStatement psmt;
+   //프로시져 혹은 함수를 호풀하기 위한 객체
+   public CallableStatement csmt;
    public Connection con;
    public ResultSet rs;
    
@@ -80,6 +83,7 @@ public class IConnectImpl implements IConnect {
          다른점은 대소문자를 구분하지 않는다.
        */
       if("EXIT".equalsIgnoreCase(inputStr)) {
+    	  
          System.out.println("프로그램을 종료합니다.");
          close();
          //프로그램 자체가 즉시 종료된다.
